@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.apkguard.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Used exclusively for the optional VirusTotal lookups the user triggers. -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:6:22-64
+13    <!--
+14        Needed to enumerate installed apps.
+15        NOTE: Google Play restricts QUERY_ALL_PACKAGES; this app is intended for
+16        sideload / FOSS distribution, which is allowed to use it.
+17    -->
+18    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+18-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:12:5-14:53
+18-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:13:9-61
+19
+20    <queries>
+20-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:16:5-21:15
+21        <intent>
+21-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:17:9-20:18
+22            <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:18:13-65
+22-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:18:21-62
+23
+24            <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:19:13-73
+24-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:19:23-70
+25        </intent>
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.13.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\6a756c8806aebf3a85e82f2688eb0647\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+29        android:name="com.apkguard.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.13.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\6a756c8806aebf3a85e82f2688eb0647\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.13.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\6a756c8806aebf3a85e82f2688eb0647\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.apkguard.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.13.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\6a756c8806aebf3a85e82f2688eb0647\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.13.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\6a756c8806aebf3a85e82f2688eb0647\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:23:5-59:19
+35        android:name="com.apkguard.app.ApkGuardApplication"
+35-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:24:9-44
+36        android:allowBackup="false"
+36-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:25:9-36
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.13.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\6a756c8806aebf3a85e82f2688eb0647\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:26:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:27:9-41
+42        android:localeConfig="@xml/locales_config"
+42-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:28:9-51
+43        android:theme="@style/Theme.ApkGuard" >
+43-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:29:9-46
+44        <activity
+44-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:31:9-38:20
+45            android:name="com.apkguard.app.MainActivity"
+45-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:32:13-41
+46            android:exported="true" >
+46-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:33:13-36
+47            <intent-filter>
+47-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:34:13-37:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:18:13-65
+48-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:18:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:19:13-73
+50-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:19:23-70
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+55            android:name="androidx.core.content.FileProvider"
+55-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:41:13-62
+56            android:authorities="com.apkguard.app.fileprovider"
+56-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:42:13-64
+57            android:exported="false"
+57-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:43:13-37
+58            android:grantUriPermissions="true" >
+58-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:44:13-47
+59            <meta-data
+59-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:45:13-47:54
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:46:17-67
+61                android:resource="@xml/file_paths" />
+61-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:47:17-51
+62        </provider>
+63
+64        <!-- Persists the user's in-app language choice (AppCompat per-app locales). -->
+65        <service
+65-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:51:9-58:19
+66            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+66-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:52:13-82
+67            android:enabled="false"
+67-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:53:13-36
+68            android:exported="false" >
+68-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:54:13-37
+69            <meta-data
+69-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:55:13-57:40
+70                android:name="autoStoreLocales"
+70-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:56:17-48
+71                android:value="true" />
+71-->C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\src\main\AndroidManifest.xml:57:17-37
+72        </service>
+73
+74        <activity
+74-->[androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\AdMiN\.gradle\caches\8.9\transforms\4f1b78c2d2d9f2d5003166a01f6de782\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+75            android:name="androidx.compose.ui.tooling.PreviewActivity"
+75-->[androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\AdMiN\.gradle\caches\8.9\transforms\4f1b78c2d2d9f2d5003166a01f6de782\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+76            android:exported="true" />
+76-->[androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\AdMiN\.gradle\caches\8.9\transforms\4f1b78c2d2d9f2d5003166a01f6de782\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+77        <activity
+77-->[androidx.compose.ui:ui-test-manifest:1.7.3] C:\Users\AdMiN\.gradle\caches\8.9\transforms\2f7bb746bbea1fc67fa5ccafcccd3704\transformed\ui-test-manifest-1.7.3\AndroidManifest.xml:23:9-25:39
+78            android:name="androidx.activity.ComponentActivity"
+78-->[androidx.compose.ui:ui-test-manifest:1.7.3] C:\Users\AdMiN\.gradle\caches\8.9\transforms\2f7bb746bbea1fc67fa5ccafcccd3704\transformed\ui-test-manifest-1.7.3\AndroidManifest.xml:24:13-63
+79            android:exported="true" />
+79-->[androidx.compose.ui:ui-test-manifest:1.7.3] C:\Users\AdMiN\.gradle\caches\8.9\transforms\2f7bb746bbea1fc67fa5ccafcccd3704\transformed\ui-test-manifest-1.7.3\AndroidManifest.xml:25:13-36
+80
+81        <provider
+81-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\AdMiN\.gradle\caches\8.9\transforms\35ab549dfaeab2628e28b0c904c13cf3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\AdMiN\.gradle\caches\8.9\transforms\35ab549dfaeab2628e28b0c904c13cf3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:25:13-67
+83            android:authorities="com.apkguard.app.androidx-startup"
+83-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\AdMiN\.gradle\caches\8.9\transforms\35ab549dfaeab2628e28b0c904c13cf3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\AdMiN\.gradle\caches\8.9\transforms\35ab549dfaeab2628e28b0c904c13cf3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\AdMiN\.gradle\caches\8.9\transforms\35ab549dfaeab2628e28b0c904c13cf3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\AdMiN\.gradle\caches\8.9\transforms\35ab549dfaeab2628e28b0c904c13cf3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\AdMiN\.gradle\caches\8.9\transforms\35ab549dfaeab2628e28b0c904c13cf3\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\AdMiN\.gradle\caches\8.9\transforms\2179ee365deb9615057c2ce571db4873\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\AdMiN\.gradle\caches\8.9\transforms\2179ee365deb9615057c2ce571db4873\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\AdMiN\.gradle\caches\8.9\transforms\2179ee365deb9615057c2ce571db4873\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+93                android:value="androidx.startup" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+94        </provider>
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\AdMiN\.gradle\caches\8.9\transforms\75d2f9ffef87187ebe668180b9751edb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>

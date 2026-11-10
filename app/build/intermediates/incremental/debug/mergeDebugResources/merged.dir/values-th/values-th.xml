@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"กลับ"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"เสร็จ"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ปิด"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"เปิด"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ลบ"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"เมนู+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ล้างคำค้นหา"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"คำค้นหา"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ส่งคำค้นหา"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="app_info_installer">ติดตั้งจาก</string>
+    <string name="app_info_min_sdk">Minimum SDK</string>
+    <string name="app_info_package">แพ็กเกจ</string>
+    <string name="app_info_target_sdk">Target SDK</string>
+    <string name="app_info_version">เวอร์ชัน</string>
+    <string name="app_name">APK Guard</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"รับสาย"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"วิดีโอ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"ปฏิเสธ"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"วางสาย"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"สายเรียกเข้า"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"สายที่สนทนาอยู่"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"กำลังสกรีนสายเรียกเข้า"</string>
+    <string name="cd_back">ย้อนกลับ</string>
+    <string name="cd_settings">การตั้งค่า</string>
+    <string name="cd_show_password">แสดง API key</string>
+    <string msgid="406453423630273620" name="close_drawer">"ปิดเมนูการนำทาง"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"ปิดชีต"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"อินพุตไม่ถูกต้อง"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"หน้าต่างป๊อปอัป"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"เมนูแบบเลื่อนลง"</string>
+    <string name="error_corrupt">ไฟล์ APK นี้อ่านไม่ได้หรือเสียหาย</string>
+    <string name="error_generic">เกิดข้อผิดพลาด กรุณาลองอีกครั้ง</string>
+    <string name="error_not_apk">ไฟล์ที่เลือกไม่ใช่ .apk (ยังไม่รองรับ .xapk หรือ split APK) กรุณาเลือกไฟล์ .apk</string>
+    <string name="error_not_found">ไม่พบแอปหรือไฟล์ที่เลือก</string>
+    <string name="home_privacy_note">ความเป็นส่วนตัว: การตรวจสอบทำบนเครื่องของคุณทั้งหมด ไม่เก็บประวัติ ไม่มีโฆษณา ไม่มีการติดตาม</string>
+    <string name="home_scan_file">สแกนไฟล์ APK</string>
+    <string name="home_scan_file_desc">เลือกไฟล์ .apk ที่ดาวน์โหลดมาจากในเครื่องของคุณ</string>
+    <string name="home_scan_installed">ตรวจแอปในเครื่อง</string>
+    <string name="home_scan_installed_desc">ดูว่าแอปที่ติดตั้งไว้ขอสิทธิ์ที่เสี่ยงหรือไม่</string>
+    <string name="home_subtitle">ตรวจสอบให้แน่ใจก่อนติดตั้งแอป</string>
+    <string name="home_title">APK Guard</string>
+    <string msgid="6827826412747255547" name="in_progress">"กำลังดำเนินการ"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"เลือกบางส่วน"</string>
+    <string name="installed_empty">ไม่พบแอป</string>
+    <string name="installed_include_system">แสดงแอประบบด้วย</string>
+    <string name="installed_search_hint">ค้นหาแอป…</string>
+    <string name="installed_title">แอปในเครื่อง</string>
+    <string name="installer_play">Play Store</string>
+    <string name="installer_sideloaded">ติดตั้งเอง (นอก Store)</string>
+    <string name="installer_unknown">ไม่ทราบ</string>
+    <string name="lang_en">English</string>
+    <string name="lang_system">ตามระบบ</string>
+    <string name="lang_th">ไทย</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"ยุบ Bottom Sheet"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"ปิด Bottom Sheet"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"แฮนเดิลการลาก"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"ขยาย Bottom Sheet"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Bottom Sheet"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"วันที่ป้อน"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"วันที่ป้อน: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"วันที่ไม่ตรงกับรูปแบบที่คาดไว้: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"ไม่อนุญาตให้ใช้วันที่นี้: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"วันที่อยู่นอกเหนือจากช่วงปีที่คาดไว้ %1$s - %2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"วันที่"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"ไม่มี"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"เลือกวันที่"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"วันที่ที่เลือก"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"การเลือกปัจจุบัน: %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"ไปยังปี %1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"ไม่มี"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"เลื่อนเพื่อแสดงปีก่อนหน้านี้"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"เลื่อนเพื่อแสดงปีหลังจากนี้"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"สลับไปใช้โหมดป้อนข้อมูลปฏิทิน"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"ปัดเพื่อเลือกปีหรือแตะเพื่อเปลี่ยนกลับไปยังการเลือกวัน"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"สลับไปใช้โหมดการป้อนข้อความ"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"เปลี่ยนไปที่เดือนถัดไป"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"เปลี่ยนไปที่เดือนก่อนหน้า"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"เปลี่ยนไปที่การเลือกปี"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"เลือกวันที่"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"วันนี้"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"แสดงตัวเลือกปี"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"การป้อนข้อมูลช่วงวันที่ไม่ถูกต้อง"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"ป้อนวันที่"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"อยู่ในช่วงวันที่ที่เลือก"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"วันที่สิ้นสุด"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"เลื่อนเพื่อแสดงเดือนถัดไป"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"เลื่อนเพื่อแสดงเดือนก่อนหน้า"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"วันที่เริ่มต้น"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"เลือกวันที่"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"กล่องโต้ตอบ"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"ยุบแล้ว"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"ขยายแล้ว"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"เปิด/ปิดเมนูแบบเลื่อนลง"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"ค้นหา"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"ปิด"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"มีคำแนะนำที่ด้านล่าง"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"AM"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"ชั่วโมง"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d ชม."</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"เลือกชั่วโมง"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d น."</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"สำหรับชั่วโมง"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"นาที"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"เลือกนาที"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d นาที"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"สำหรับนาที"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"เลือก AM หรือ PM"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"แสดงเคล็ดลับเครื่องมือ"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"เคล็ดลับเครื่องมือ"</string>
+    <string name="more_findings">และอีก %1$d รายการ</string>
+    <string msgid="542007171693138492" name="navigation_menu">"เมนูการนำทาง"</string>
+    <string name="no_findings">การตรวจสอบบนเครื่องไม่พบสิ่งที่น่าสงสัย</string>
+    <string msgid="6610465462668679431" name="not_selected">"ไม่ได้เลือก"</string>
+    <string name="perm_granted">ได้รับอนุญาตแล้ว</string>
+    <string name="perm_group_other">อื่น ๆ</string>
+    <string name="perm_risk_dangerous">อันตราย</string>
+    <string name="perm_risk_noteworthy">ควรระวัง</string>
+    <string name="perm_risk_safe">ทั่วไป</string>
+    <string msgid="5941395253238309765" name="range_end">"จุดสิ้นสุดของช่วง"</string>
+    <string msgid="7097486360902471446" name="range_start">"จุดเริ่มต้นของช่วง"</string>
+    <string name="result_summary_title">สรุปผล</string>
+    <string name="risk_score">คะแนนความเสี่ยง</string>
+    <string name="scan_again">สแกนใหม่</string>
+    <string name="scanning_title">กำลังตรวจสอบ…</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ค้นหา"</string>
+    <string name="section_app_info">ข้อมูลแอป</string>
+    <string name="section_permissions">สิทธิ์ที่ขอ (%1$d)</string>
+    <string name="section_signature">ลายเซ็นและใบรับรอง</string>
+    <string name="section_strings">สตริงที่ฝังอยู่ในไฟล์</string>
+    <string msgid="6043586758067023" name="selected">"เลือกไว้"</string>
+    <string name="settings_language_heading">ภาษา</string>
+    <string name="settings_privacy_body">• การวิเคราะห์ทำงานบนเครื่องของคุณทั้งหมด\n• ไม่มีการเก็บประวัติการตรวจสอบ\n• ไม่มีโฆษณาและไม่มีการติดตาม\n• ข้อมูลจะออกจากเครื่องเฉพาะเมื่อคุณกด “ตรวจกับ VirusTotal” เท่านั้น</string>
+    <string name="settings_privacy_heading">ความเป็นส่วนตัว</string>
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="settings_vt_heading">VirusTotal (ตัวเลือกเสริม)</string>
+    <string name="settings_vt_howto">สมัครบัญชีฟรีที่ virustotal.com → โปรไฟล์ → API key แล้วนำมาวางที่นี่ การตรวจจะค้นหาด้วย hash ก่อนเสมอ และอัปโหลดไฟล์จริงเฉพาะเมื่อคุณกดยืนยันเท่านั้น</string>
+    <string name="settings_vt_key_hide">ซ่อน key</string>
+    <string name="settings_vt_key_hint">วาง API key ฟรีของคุณจาก virustotal.com</string>
+    <string name="settings_vt_key_label">VirusTotal API key</string>
+    <string name="settings_vt_key_save">บันทึก</string>
+    <string name="settings_vt_key_saved">บันทึก API key เรียบร้อยแล้ว</string>
+    <string name="settings_vt_key_show">แสดง key</string>
+    <string name="share_image">แชร์เป็นรูปภาพ</string>
+    <string name="share_text">แชร์เป็นข้อความ</string>
+    <string name="sig_missing">ไม่พบลายเซ็น</string>
+    <string name="sig_scheme_template">รูปแบบการเซ็น: %1$s</string>
+    <string name="stage_copying">กำลังคัดลอกไฟล์…</string>
+    <string name="stage_finalizing">กำลังสรุปผล…</string>
+    <string name="stage_parsing">กำลังอ่านข้อมูลแอป…</string>
+    <string name="stage_permissions">กำลังตรวจสอบสิทธิ์…</string>
+    <string name="stage_preparing">กำลังเตรียมตรวจสอบ…</string>
+    <string name="stage_signature">กำลังตรวจสอบลายเซ็น…</string>
+    <string name="stage_strings">กำลังสแกนสตริงที่ฝังอยู่…</string>
+    <string msgid="4139871816613051306" name="state_empty">"ว่าง"</string>
+    <string msgid="5834637030682409883" name="state_off">"ปิดอยู่"</string>
+    <string msgid="1490883874751719580" name="state_on">"เปิดอยู่"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="strings_ips_found">พบ IP address ตรง ๆ จำนวน %1$d รายการ</string>
+    <string name="strings_none">ไม่พบสตริงที่น่าสนใจ</string>
+    <string name="strings_urls_found">พบ URL จำนวน %1$d รายการ</string>
+    <string msgid="2561197295334830845" name="switch_role">"เปลี่ยน"</string>
+    <string msgid="1672349317127674378" name="tab">"แท็บ"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> เปอร์เซ็นต์"</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"เคล็ดลับเครื่องมือ"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"แสดงเคล็ดลับเครื่องมือ"</string>
+    <string name="verdict_dangerous">อันตราย</string>
+    <string name="verdict_safe">ปลอดภัย</string>
+    <string name="verdict_safe_th_heading">ไม่พบความเสี่ยงที่ชัดเจน</string>
+    <string name="verdict_suspicious">น่าสงสัย</string>
+    <string name="vt_button_scan">ตรวจกับ VirusTotal</string>
+    <string name="vt_cancel">ไว้ทีหลัง</string>
+    <string name="vt_clean">ไม่มีเอนจินรายงานว่าไฟล์นี้เป็นอันตราย</string>
+    <string name="vt_detections">มีเอนจิน %1$d จาก %2$d ตัวที่รายงานว่าเป็นอันตราย</string>
+    <string name="vt_engines_flagged">เอนจินที่แจ้งเตือน</string>
+    <string name="vt_error_cannot_upload">ไม่มีไฟล์ต้นฉบับให้อัปโหลด (บางเครื่องบล็อกการอ่าน APK ของแอปที่ติดตั้งแล้ว) และไม่สามารถค้นหาด้วย hash ได้เช่นกัน</string>
+    <string name="vt_error_invalid_key">API key ไม่ถูกต้อง ตรวจสอบได้ที่หน้าการตั้งค่า</string>
+    <string name="vt_error_network">เชื่อมต่อกับ VirusTotal ไม่ได้ กรุณาตรวจสอบอินเทอร์เน็ต</string>
+    <string name="vt_error_rate_limit">ใช้งานเกินโควตาบัญชีฟรี (4 ครั้ง/นาที) กรุณารอสักครู่แล้วลองอีกครั้ง</string>
+    <string name="vt_error_too_large">ไฟล์ใหญ่เกินขีดจำกัด 32MB ของบัญชีฟรี</string>
+    <string name="vt_go_settings">ไปที่การตั้งค่า</string>
+    <string name="vt_hash">SHA-256</string>
+    <string name="vt_need_key">ยังไม่ได้ตั้งค่า API key — เพิ่มได้ที่หน้าการตั้งค่า</string>
+    <string name="vt_not_found_msg">ยังไม่มีใครเคยสแกนไฟล์นี้มาก่อน ต้องการอัปโหลดไฟล์ไปให้เอนจินกว่า 70 ตัวตรวจสอบหรือไม่?</string>
+    <string name="vt_not_found_title">ยังไม่มีไฟล์นี้ในฐานข้อมูล VirusTotal</string>
+    <string name="vt_processing">VirusTotal กำลังประมวลผลไฟล์นี้อยู่ ลองกดตรวจอีกครั้งใน 1–2 นาที</string>
+    <string name="vt_reputation">ชื่อเสียงจากชุมชน</string>
+    <string name="vt_running">กำลังตรวจกับ VirusTotal…</string>
+    <string name="vt_section_desc">สแกนด้วยเอนจินป้องกันไวรัสกว่า 70 ตัวด้วย API key ฟรีของคุณเอง ระบบจะค้นหาด้วย hash ก่อนเสมอ และจะอัปโหลดไฟล์จริงเฉพาะเมื่อคุณอนุญาตเท่านั้น</string>
+    <string name="vt_section_title">ตรวจซ้ำด้วย VirusTotal</string>
+    <string name="vt_threat_label">ประเภทภัยคุกคาม</string>
+    <string name="vt_upload_confirm">อัปโหลดและตรวจสอบ</string>
+</resources>

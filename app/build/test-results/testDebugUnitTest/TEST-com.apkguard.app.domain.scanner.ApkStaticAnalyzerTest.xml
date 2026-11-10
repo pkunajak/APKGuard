@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-30T08:59:19" hostname="ECC-COM86306" time="0.029">
+  <properties/>
+  <testcase name="v1-only signing is MEDIUM" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.009"/>
+  <testcase name="suspicious strings map to findings" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.004"/>
+  <testcase name="install-packages plus overlay triggers dropper combo" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.006"/>
+  <testcase name="notification listener declaration is MEDIUM" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.0"/>
+  <testcase name="sideloaded installed app gets an INFO note" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.0"/>
+  <testcase name="unsigned apk is CRITICAL" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.001"/>
+  <testcase name="ancient targetSdk is flagged" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.0"/>
+  <testcase name="accessibility service declaration is HIGH" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.001"/>
+  <testcase name="debuggable and allowBackup flags map to findings" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.0"/>
+  <testcase name="clean app produces no findings" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.002"/>
+  <testcase name="sms plus contacts plus location triggers spyware combo" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.0"/>
+  <testcase name="multiple dex files is INFO only" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.0"/>
+  <testcase name="debug certificate is flagged HIGH" classname="com.apkguard.app.domain.scanner.ApkStaticAnalyzerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

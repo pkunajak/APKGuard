@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apkguard.app.domain.scanner.ScoringEngineTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-30T08:59:19" hostname="ECC-COM86306" time="0.007">
+  <properties/>
+  <testcase name="topFindings sorts by severity and hides INFO" classname="com.apkguard.app.domain.scanner.ScoringEngineTest" time="0.004"/>
+  <testcase name="score is capped at 100" classname="com.apkguard.app.domain.scanner.ScoringEngineTest" time="0.001"/>
+  <testcase name="severity weights are summed" classname="com.apkguard.app.domain.scanner.ScoringEngineTest" time="0.0"/>
+  <testcase name="no findings yields zero score and SAFE verdict" classname="com.apkguard.app.domain.scanner.ScoringEngineTest" time="0.001"/>
+  <testcase name="verdict thresholds are inclusive" classname="com.apkguard.app.domain.scanner.ScoringEngineTest" time="0.0"/>
+  <testcase name="two high findings land in SUSPICIOUS" classname="com.apkguard.app.domain.scanner.ScoringEngineTest" time="0.0"/>
+  <testcase name="critical plus high plus medium stays SUSPICIOUS at 58" classname="com.apkguard.app.domain.scanner.ScoringEngineTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

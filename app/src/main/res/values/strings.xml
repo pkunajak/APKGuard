@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APK Guard</string>
+
+    <!-- Home -->
+    <string name="home_title">APK Guard</string>
+    <string name="home_subtitle">Check an app is safe before you install it</string>
+    <string name="home_scan_file">Scan APK file</string>
+    <string name="home_scan_file_desc">Pick a downloaded .apk file from your device</string>
+    <string name="home_scan_installed">Check installed apps</string>
+    <string name="home_scan_installed_desc">See whether installed apps request risky permissions</string>
+    <string name="home_privacy_note">Privacy: analysis runs entirely on your device. No history is stored, no ads, no trackers.</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_back">Back</string>
+
+    <!-- Scanning -->
+    <string name="scanning_title">Scanning…</string>
+    <string name="stage_preparing">Preparing…</string>
+    <string name="stage_copying">Copying file…</string>
+    <string name="stage_parsing">Reading app info…</string>
+    <string name="stage_permissions">Checking permissions…</string>
+    <string name="stage_signature">Verifying signature…</string>
+    <string name="stage_strings">Scanning embedded strings…</string>
+    <string name="stage_finalizing">Summarizing results…</string>
+
+    <!-- Errors -->
+    <string name="error_not_apk">That file is not a .apk (.xapk / split APKs are not supported yet). Please pick a .apk file.</string>
+    <string name="error_corrupt">This APK file cannot be read or is corrupted.</string>
+    <string name="error_not_found">The selected app or file was not found.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+
+    <!-- Result -->
+    <string name="verdict_safe">SAFE</string>
+    <string name="verdict_suspicious">SUSPICIOUS</string>
+    <string name="verdict_dangerous">DANGEROUS</string>
+    <string name="verdict_safe_th_heading">No obvious risks found</string>
+    <string name="risk_score">Risk score</string>
+    <string name="result_summary_title">Summary</string>
+    <string name="section_permissions">Requested permissions (%1$d)</string>
+    <string name="section_signature">Signature &amp; certificates</string>
+    <string name="section_app_info">App information</string>
+    <string name="section_strings">Embedded strings</string>
+    <string name="perm_risk_dangerous">Dangerous</string>
+    <string name="perm_risk_noteworthy">Use with care</string>
+    <string name="perm_risk_safe">Standard</string>
+    <string name="perm_granted">granted</string>
+    <string name="perm_group_other">Other</string>
+    <string name="no_findings">Nothing suspicious found by the on-device checks.</string>
+    <string name="app_info_version">Version</string>
+    <string name="app_info_package">Package</string>
+    <string name="app_info_target_sdk">Target SDK</string>
+    <string name="app_info_min_sdk">Minimum SDK</string>
+    <string name="app_info_installer">Installed from</string>
+    <string name="installer_play">Play Store</string>
+    <string name="installer_sideloaded">Sideloaded (outside stores)</string>
+    <string name="installer_unknown">Unknown</string>
+    <string name="sig_missing">No signature found</string>
+    <string name="sig_scheme_template">Signing schemes: %1$s</string>
+    <string name="share_text">Share as text</string>
+    <string name="share_image">Share as image</string>
+    <string name="scan_again">Scan again</string>
+    <string name="strings_urls_found">URLs found: %1$d</string>
+    <string name="strings_ips_found">Raw IP addresses found: %1$d</string>
+    <string name="strings_none">No notable strings found.</string>
+
+    <!-- VirusTotal -->
+    <string name="vt_section_title">Double-check with VirusTotal</string>
+    <string name="vt_section_desc">Scan with 70+ antivirus engines using your own free API key. The file is looked up by its hash first; uploading the file only ever happens with your explicit consent.</string>
+    <string name="vt_button_scan">Check with VirusTotal</string>
+    <string name="vt_need_key">No API key set yet — add one in Settings.</string>
+    <string name="vt_go_settings">Open Settings</string>
+    <string name="vt_running">Checking with VirusTotal…</string>
+    <string name="vt_not_found_title">Not in the VirusTotal database yet</string>
+    <string name="vt_not_found_msg">Nobody has scanned this file before. Upload it to VirusTotal so 70+ engines can check it?</string>
+    <string name="vt_upload_confirm">Upload and check</string>
+    <string name="vt_cancel">Not now</string>
+    <string name="vt_detections">%1$d of %2$d engines flagged this file</string>
+    <string name="vt_reputation">Community reputation</string>
+    <string name="vt_threat_label">Threat label</string>
+    <string name="vt_engines_flagged">Flagging engines</string>
+    <string name="vt_clean">No engine flagged this file as malicious.</string>
+    <string name="vt_hash">SHA-256</string>
+    <string name="vt_processing">VirusTotal is still processing this file. Try again in a minute or two.</string>
+    <string name="vt_error_rate_limit">Free-tier quota exceeded (4 requests/minute). Please try again shortly.</string>
+    <string name="vt_error_invalid_key">The API key is invalid. Check it in Settings.</string>
+    <string name="vt_error_network">Cannot reach VirusTotal. Check your internet connection.</string>
+    <string name="vt_error_too_large">File is larger than the 32 MB free-tier upload limit.</string>
+    <string name="vt_error_cannot_upload">No file is available for upload (some devices block reading installed APKs). Hash lookup was not possible either.</string>
+    <string name="more_findings">+ %1$d more findings</string>
+
+    <!-- Installed apps -->
+    <string name="installed_title">Installed apps</string>
+    <string name="installed_search_hint">Search apps…</string>
+    <string name="installed_include_system">Show system apps</string>
+    <string name="installed_empty">No apps found</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_vt_heading">VirusTotal (optional)</string>
+    <string name="settings_vt_key_label">VirusTotal API key</string>
+    <string name="settings_vt_key_hint">Paste your free API key from virustotal.com</string>
+    <string name="settings_vt_key_save">Save</string>
+    <string name="settings_vt_key_saved">API key saved</string>
+    <string name="settings_vt_key_show">Show key</string>
+    <string name="settings_vt_key_hide">Hide key</string>
+    <string name="settings_vt_howto">Create a free account at virustotal.com → profile → API key, then paste it here. Scans always look the file up by hash first; the file itself is only uploaded when you explicitly allow it.</string>
+    <string name="settings_language_heading">Language</string>
+    <string name="lang_system">System default</string>
+    <string name="lang_th">ไทย</string>
+    <string name="lang_en">English</string>
+    <string name="settings_privacy_heading">Privacy</string>
+    <string name="settings_privacy_body">• All analysis runs on your device\n• No scan history is stored\n• No ads and no trackers\n• Data leaves the device only when you tap “Check with VirusTotal”</string>
+    <string name="cd_show_password">Show API key</string>
+</resources>

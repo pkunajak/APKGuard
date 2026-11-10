@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apkguard.app.domain.scanner.PermissionRiskCatalogTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-30T08:59:19" hostname="ECC-COM86306" time="0.006">
+  <properties/>
+  <testcase name="fine location is noteworthy but not dangerous" classname="com.apkguard.app.domain.scanner.PermissionRiskCatalogTest" time="0.001"/>
+  <testcase name="SMS permissions are dangerous and heavily weighted" classname="com.apkguard.app.domain.scanner.PermissionRiskCatalogTest" time="0.0"/>
+  <testcase name="internet is standard" classname="com.apkguard.app.domain.scanner.PermissionRiskCatalogTest" time="0.0"/>
+  <testcase name="install-packages permission is dangerous" classname="com.apkguard.app.domain.scanner.PermissionRiskCatalogTest" time="0.001"/>
+  <testcase name="contacts and call log are dangerous" classname="com.apkguard.app.domain.scanner.PermissionRiskCatalogTest" time="0.0"/>
+  <testcase name="toPermissionInfos carries granted flags" classname="com.apkguard.app.domain.scanner.PermissionRiskCatalogTest" time="0.002"/>
+  <testcase name="unknown custom permissions fall back to SAFE" classname="com.apkguard.app.domain.scanner.PermissionRiskCatalogTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apkguard.app.data.vt.VirusTotalModelsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-30T08:59:18" hostname="ECC-COM86306" time="0.123">
+  <properties/>
+  <testcase name="empty payload decodes without crashing" classname="com.apkguard.app.data.vt.VirusTotalModelsTest" time="0.044"/>
+  <testcase name="ignores unknown fields and missing sections" classname="com.apkguard.app.data.vt.VirusTotalModelsTest" time="0.068"/>
+  <testcase name="parses a full file report and maps to summary" classname="com.apkguard.app.data.vt.VirusTotalModelsTest" time="0.003"/>
+  <testcase name="parses an upload acknowledgement and analysis status" classname="com.apkguard.app.data.vt.VirusTotalModelsTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

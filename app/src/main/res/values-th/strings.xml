@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APK Guard</string>
+
+    <!-- หน้าหลัก -->
+    <string name="home_title">APK Guard</string>
+    <string name="home_subtitle">ตรวจสอบให้แน่ใจก่อนติดตั้งแอป</string>
+    <string name="home_scan_file">สแกนไฟล์ APK</string>
+    <string name="home_scan_file_desc">เลือกไฟล์ .apk ที่ดาวน์โหลดมาจากในเครื่องของคุณ</string>
+    <string name="home_scan_installed">ตรวจแอปในเครื่อง</string>
+    <string name="home_scan_installed_desc">ดูว่าแอปที่ติดตั้งไว้ขอสิทธิ์ที่เสี่ยงหรือไม่</string>
+    <string name="home_privacy_note">ความเป็นส่วนตัว: การตรวจสอบทำบนเครื่องของคุณทั้งหมด ไม่เก็บประวัติ ไม่มีโฆษณา ไม่มีการติดตาม</string>
+    <string name="cd_settings">การตั้งค่า</string>
+    <string name="cd_back">ย้อนกลับ</string>
+
+    <!-- กำลังตรวจสอบ -->
+    <string name="scanning_title">กำลังตรวจสอบ…</string>
+    <string name="stage_preparing">กำลังเตรียมตรวจสอบ…</string>
+    <string name="stage_copying">กำลังคัดลอกไฟล์…</string>
+    <string name="stage_parsing">กำลังอ่านข้อมูลแอป…</string>
+    <string name="stage_permissions">กำลังตรวจสอบสิทธิ์…</string>
+    <string name="stage_signature">กำลังตรวจสอบลายเซ็น…</string>
+    <string name="stage_strings">กำลังสแกนสตริงที่ฝังอยู่…</string>
+    <string name="stage_finalizing">กำลังสรุปผล…</string>
+
+    <!-- ข้อผิดพลาด -->
+    <string name="error_not_apk">ไฟล์ที่เลือกไม่ใช่ .apk (ยังไม่รองรับ .xapk หรือ split APK) กรุณาเลือกไฟล์ .apk</string>
+    <string name="error_corrupt">ไฟล์ APK นี้อ่านไม่ได้หรือเสียหาย</string>
+    <string name="error_not_found">ไม่พบแอปหรือไฟล์ที่เลือก</string>
+    <string name="error_generic">เกิดข้อผิดพลาด กรุณาลองอีกครั้ง</string>
+
+    <!-- ผลลัพธ์ -->
+    <string name="verdict_safe">ปลอดภัย</string>
+    <string name="verdict_suspicious">น่าสงสัย</string>
+    <string name="verdict_dangerous">อันตราย</string>
+    <string name="verdict_safe_th_heading">ไม่พบความเสี่ยงที่ชัดเจน</string>
+    <string name="risk_score">คะแนนความเสี่ยง</string>
+    <string name="result_summary_title">สรุปผล</string>
+    <string name="section_permissions">สิทธิ์ที่ขอ (%1$d)</string>
+    <string name="section_signature">ลายเซ็นและใบรับรอง</string>
+    <string name="section_app_info">ข้อมูลแอป</string>
+    <string name="section_strings">สตริงที่ฝังอยู่ในไฟล์</string>
+    <string name="perm_risk_dangerous">อันตราย</string>
+    <string name="perm_risk_noteworthy">ควรระวัง</string>
+    <string name="perm_risk_safe">ทั่วไป</string>
+    <string name="perm_granted">ได้รับอนุญาตแล้ว</string>
+    <string name="perm_group_other">อื่น ๆ</string>
+    <string name="no_findings">การตรวจสอบบนเครื่องไม่พบสิ่งที่น่าสงสัย</string>
+    <string name="app_info_version">เวอร์ชัน</string>
+    <string name="app_info_package">แพ็กเกจ</string>
+    <string name="app_info_target_sdk">Target SDK</string>
+    <string name="app_info_min_sdk">Minimum SDK</string>
+    <string name="app_info_installer">ติดตั้งจาก</string>
+    <string name="installer_play">Play Store</string>
+    <string name="installer_sideloaded">ติดตั้งเอง (นอก Store)</string>
+    <string name="installer_unknown">ไม่ทราบ</string>
+    <string name="sig_missing">ไม่พบลายเซ็น</string>
+    <string name="sig_scheme_template">รูปแบบการเซ็น: %1$s</string>
+    <string name="share_text">แชร์เป็นข้อความ</string>
+    <string name="share_image">แชร์เป็นรูปภาพ</string>
+    <string name="scan_again">สแกนใหม่</string>
+    <string name="strings_urls_found">พบ URL จำนวน %1$d รายการ</string>
+    <string name="strings_ips_found">พบ IP address ตรง ๆ จำนวน %1$d รายการ</string>
+    <string name="strings_none">ไม่พบสตริงที่น่าสนใจ</string>
+
+    <!-- VirusTotal -->
+    <string name="vt_section_title">ตรวจซ้ำด้วย VirusTotal</string>
+    <string name="vt_section_desc">สแกนด้วยเอนจินป้องกันไวรัสกว่า 70 ตัวด้วย API key ฟรีของคุณเอง ระบบจะค้นหาด้วย hash ก่อนเสมอ และจะอัปโหลดไฟล์จริงเฉพาะเมื่อคุณอนุญาตเท่านั้น</string>
+    <string name="vt_button_scan">ตรวจกับ VirusTotal</string>
+    <string name="vt_need_key">ยังไม่ได้ตั้งค่า API key — เพิ่มได้ที่หน้าการตั้งค่า</string>
+    <string name="vt_go_settings">ไปที่การตั้งค่า</string>
+    <string name="vt_running">กำลังตรวจกับ VirusTotal…</string>
+    <string name="vt_not_found_title">ยังไม่มีไฟล์นี้ในฐานข้อมูล VirusTotal</string>
+    <string name="vt_not_found_msg">ยังไม่มีใครเคยสแกนไฟล์นี้มาก่อน ต้องการอัปโหลดไฟล์ไปให้เอนจินกว่า 70 ตัวตรวจสอบหรือไม่?</string>
+    <string name="vt_upload_confirm">อัปโหลดและตรวจสอบ</string>
+    <string name="vt_cancel">ไว้ทีหลัง</string>
+    <string name="vt_detections">มีเอนจิน %1$d จาก %2$d ตัวที่รายงานว่าเป็นอันตราย</string>
+    <string name="vt_reputation">ชื่อเสียงจากชุมชน</string>
+    <string name="vt_threat_label">ประเภทภัยคุกคาม</string>
+    <string name="vt_engines_flagged">เอนจินที่แจ้งเตือน</string>
+    <string name="vt_clean">ไม่มีเอนจินรายงานว่าไฟล์นี้เป็นอันตราย</string>
+    <string name="vt_hash">SHA-256</string>
+    <string name="vt_processing">VirusTotal กำลังประมวลผลไฟล์นี้อยู่ ลองกดตรวจอีกครั้งใน 1–2 นาที</string>
+    <string name="vt_error_rate_limit">ใช้งานเกินโควตาบัญชีฟรี (4 ครั้ง/นาที) กรุณารอสักครู่แล้วลองอีกครั้ง</string>
+    <string name="vt_error_invalid_key">API key ไม่ถูกต้อง ตรวจสอบได้ที่หน้าการตั้งค่า</string>
+    <string name="vt_error_network">เชื่อมต่อกับ VirusTotal ไม่ได้ กรุณาตรวจสอบอินเทอร์เน็ต</string>
+    <string name="vt_error_too_large">ไฟล์ใหญ่เกินขีดจำกัด 32MB ของบัญชีฟรี</string>
+    <string name="vt_error_cannot_upload">ไม่มีไฟล์ต้นฉบับให้อัปโหลด (บางเครื่องบล็อกการอ่าน APK ของแอปที่ติดตั้งแล้ว) และไม่สามารถค้นหาด้วย hash ได้เช่นกัน</string>
+    <string name="more_findings">และอีก %1$d รายการ</string>
+
+    <!-- แอปในเครื่อง -->
+    <string name="installed_title">แอปในเครื่อง</string>
+    <string name="installed_search_hint">ค้นหาแอป…</string>
+    <string name="installed_include_system">แสดงแอประบบด้วย</string>
+    <string name="installed_empty">ไม่พบแอป</string>
+
+    <!-- การตั้งค่า -->
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="settings_vt_heading">VirusTotal (ตัวเลือกเสริม)</string>
+    <string name="settings_vt_key_label">VirusTotal API key</string>
+    <string name="settings_vt_key_hint">วาง API key ฟรีของคุณจาก virustotal.com</string>
+    <string name="settings_vt_key_save">บันทึก</string>
+    <string name="settings_vt_key_saved">บันทึก API key เรียบร้อยแล้ว</string>
+    <string name="settings_vt_key_show">แสดง key</string>
+    <string name="settings_vt_key_hide">ซ่อน key</string>
+    <string name="settings_vt_howto">สมัครบัญชีฟรีที่ virustotal.com → โปรไฟล์ → API key แล้วนำมาวางที่นี่ การตรวจจะค้นหาด้วย hash ก่อนเสมอ และอัปโหลดไฟล์จริงเฉพาะเมื่อคุณกดยืนยันเท่านั้น</string>
+    <string name="settings_language_heading">ภาษา</string>
+    <string name="lang_system">ตามระบบ</string>
+    <string name="lang_th">ไทย</string>
+    <string name="lang_en">English</string>
+    <string name="settings_privacy_heading">ความเป็นส่วนตัว</string>
+    <string name="settings_privacy_body">• การวิเคราะห์ทำงานบนเครื่องของคุณทั้งหมด\n• ไม่มีการเก็บประวัติการตรวจสอบ\n• ไม่มีโฆษณาและไม่มีการติดตาม\n• ข้อมูลจะออกจากเครื่องเฉพาะเมื่อคุณกด “ตรวจกับ VirusTotal” เท่านั้น</string>
+    <string name="cd_show_password">แสดง API key</string>
+</resources>

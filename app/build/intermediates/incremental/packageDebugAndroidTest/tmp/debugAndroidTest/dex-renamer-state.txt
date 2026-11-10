@@ -1,0 +1,4 @@
+#Fri Oct 30 16:07:24 ICT 2026
+base.0=C\:\\Users\\AdMiN\\.zcode\\workspace\\default\\ApkGuard\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

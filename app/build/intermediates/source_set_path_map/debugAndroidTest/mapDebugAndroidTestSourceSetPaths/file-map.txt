@@ -1,0 +1,4 @@
+com.apkguard.app.test.app-androidTest-0 C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\build\generated\res\resValues\androidTest\debug
+com.apkguard.app.test.app-mergeDebugAndroidTestResources-1 C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.apkguard.app.test.app-mergeDebugAndroidTestResources-2 C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.apkguard.app.test.app-debugAndroidTest-3 C:\Users\AdMiN\.zcode\workspace\default\ApkGuard\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
